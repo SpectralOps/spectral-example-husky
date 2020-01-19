@@ -1,0 +1,14 @@
+{
+  "name": "spectral-example-husky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^4.0.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "spectral run"
+    }
+  }
+}
