@@ -8,7 +8,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "spectral run"
+      "pre-commit": "spectral scan --unstaged"
     }
   }
 }
