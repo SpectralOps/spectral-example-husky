@@ -4,11 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^4.0.10"
+    "husky": "^7.0.4"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "$HOME/.spectral/spectral scan --unstaged"
-    }
+  "scripts": {
+    "prepare": "husky install"
   }
 }
